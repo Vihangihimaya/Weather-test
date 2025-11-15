@@ -156,21 +156,8 @@ Secure session management
 
 🏗️ Project Structure
 
+<img width="798" height="474" alt="image" src="https://github.com/user-attachments/assets/c5d9d8b6-2427-449d-aa39-ac9fe21a9965" />
 
-fidenz-weather-app/
-├── backend/
-│   ├── server.js          # Express server with caching
-│   ├── cities.json        # City data from assignment
-│   ├── package.json       # Backend dependencies
-│   └── .env              # Environment variables (API keys)
-├── frontend/
-│   ├── src/
-│   │   ├── App.tsx       # Main application with Auth0
-│   │   ├── main.tsx      # Application entry point
-│   │   ├── components/   # React components
-│   │   └── index.css     # Styling
-│   └── package.json      # Frontend dependencies
-└── README.md            # This documentation
 
 
 
