@@ -2,7 +2,7 @@
 
 A secure weather application with authentication that retrieves and displays weather information for multiple cities.
 
-## 🌟 Features Implemented
+##  Features Implemented
 
 ### Part 1: Weather Application
 -  **City Data**: Reads city codes from `cities.json` file
@@ -21,7 +21,7 @@ A secure weather application with authentication that retrieves and displays wea
 
 
 
-## 🚀 How to Run This Project
+##  How to Run This Project
 
 ### Prerequisites
 - Node.js (version 18 or higher)
@@ -58,10 +58,10 @@ bash
 npm run dev
 Expected Output:
 text
-🚀 Backend server running on port 5000
-📊 Loaded cities from cities.json (exact assignment format)
-🌤️  Weather API: http://localhost:5000/api/weather
-🏙️  Original Cities Data: http://localhost:5000/api/cities-original
+ Backend server running on port 5000
+ Loaded cities from cities.json (exact assignment format)
+ Weather API: http://localhost:5000/api/weather
+ Original Cities Data: http://localhost:5000/api/cities-original
 Step 3: Frontend Setup
 Open a NEW terminal window
 
@@ -138,7 +138,7 @@ Frontend (Port 3000)
 http://localhost:3000 - Main application
 
 
-🔑 Authentication Details
+ Authentication Details
 Auth0 Configuration
 Domain: dev-0v1pf66xqyxgj1c8.us.auth0.com
 
@@ -154,14 +154,14 @@ Secure session management
 
 
 
-🏗️ Project Structure
+ Project Structure
 
 <img width="798" height="474" alt="image" src="https://github.com/user-attachments/assets/c5d9d8b6-2427-449d-aa39-ac9fe21a9965" />
 
 
 
 
-🔧 Technical Stack
+### Technical Stack
 
 Backend
 Node.js with Express.js
@@ -179,7 +179,7 @@ Auth0 React SDK for authentication
 Tailwind CSS for responsive styling
 Lucide React for icons
 
-📊 Caching Implementation
+### Caching Implementation
 The backend implements efficient 5-minute caching:
 
 How it works:
@@ -196,24 +196,24 @@ Subsequent requests show Cache hit for city...
 After 5 minutes, shows Fetched fresh data for... again
 
 
-🎯 Assignment Requirements Checklist
-Part 1: Weather Information Web/API Application ✅
-✅ Read city codes from cities.json file
-✅ Fetch weather data using OpenWeatherMap APIs
-✅ Display weather information (name, description, temperature)
-✅ Implement data caching with 5-minute expiration
-✅ Responsive layout for desktop and mobile
+### Assignment Requirements Checklist
+Part 1: Weather Information Web/API Application 
+- Read city codes from cities.json file
+- Fetch weather data using OpenWeatherMap APIs
+- Display weather information (name, description, temperature)
+- Implement data caching with 5-minute expiration
+- Responsive layout for desktop and mobile
 
 
-Part 2: Authentication & Authorization ✅
-✅ Integrate Auth0 Authentication
-✅ Users must log in to access weather data
-✅ Login and logout functionality
-✅ Disable public user signups
-✅ Create test user account (careers@fidenz.com / Pass#fidenz)
-✅ Multi-Factor Authentication configured (requires paid plan upgrade)
+Part 2: Authentication & Authorization 
+ Integrate Auth0 Authentication
+ Users must log in to access weather data
+ Login and logout functionality
+ Disable public user signups
+ Create test user account (careers@fidenz.com / Pass#fidenz)
+ Multi-Factor Authentication configured (requires paid plan upgrade)
 
-🎨 UI/UX Features
+### UI/UX Features
 Beautiful gradient backgrounds
 Responsive grid layout
 Weather icons and animations
@@ -221,7 +221,7 @@ Professional card design with hover effects
 Real-time weather data display
 User-friendly login interface
 
-🔄 Development Scripts
+### Development Scripts
 Backend
 bash
 npm run dev    # Start development server
@@ -232,7 +232,7 @@ npm run dev    # Start development server
 npm run build  # Build for production
 
 
-📞 Support
+### Support
 If you encounter any issues:
 
 Backend not starting: Check port 5000 is available and .env file exists
@@ -240,7 +240,7 @@ Frontend not loading: Ensure backend is running first
 Login issues: Verify Auth0 credentials in main.tsx
 Weather data not showing: Check OpenWeatherMap API key
 
-📝 Notes
+### Notes
 The application uses real weather data from OpenWeatherMap API
 Caching is implemented to reduce API calls and improve performance
 Authentication is handled by Auth0 for enterprise-grade security
